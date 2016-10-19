@@ -8,7 +8,7 @@ data:extend(
     ingredients =
     {
       {"power-armor-mk2", 1},
-	  {"titanium-plate", 100},
+	  {"titanium-alloy", 100},
       {"advanced-circuit", 100}, 
 	  {"alien-artifact", 100}
     },
@@ -60,7 +60,7 @@ data:extend(
     {
 	  {"personal-roboport-equipment", 2},
       {"processing-unit", 20},
-      {"titanium-plate", 40},
+      {"titanium-alloy", 40},
       {"battery-mk2-equipment", 20},
     },
     result = "personal-roboport-mk2-equipment"

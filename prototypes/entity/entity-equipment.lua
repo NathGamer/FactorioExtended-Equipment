@@ -23,7 +23,8 @@ data:extend({
       input_flow_limit = "480kW",
       usage_priority = "primary-input"
     },
-    energy_per_shield = "40kJ"
+    energy_per_shield = "40kJ",
+    categories = {"armor"}
   },
   
   {
@@ -49,7 +50,8 @@ data:extend({
       input_flow_limit = "5GW",
       output_flow_limit = "5GW",
       usage_priority = "terciary"
-    }
+    },
+    categories = {"armor"}
   },
   
   {
@@ -73,7 +75,8 @@ data:extend({
       type = "electric",
       usage_priority = "primary-output"
     },
-    power = "3000kW"
+    power = "3000kW",
+    categories = {"armor"}
   },
   
   {
@@ -123,6 +126,7 @@ data:extend({
     charging_station_shift = {0, 0.5},
     charging_station_count = 4,
     charging_distance = 1.6,
-    charging_threshold_distance = 5
+    charging_threshold_distance = 5,
+    categories = {"armor"}
   }
 })
