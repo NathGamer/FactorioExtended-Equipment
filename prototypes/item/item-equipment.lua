@@ -31,7 +31,7 @@ data:extend({
     subgroup = "fb-equipment",
     order = "a-a",
     stack_size = 1,
-    equipment_grid = {width = 13, height = 13},
+    equipment_grid = "xlarge-equipment-grid",
     inventory_size_bonus = 40
   },
   
