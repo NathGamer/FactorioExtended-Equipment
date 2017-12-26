@@ -2,7 +2,7 @@ data:extend(
 {
   {
     type = "recipe",
-	energy_required = 0.5,
+    energy_required = 0.5,
     name = "power-armor-mk3",
     enabled = false,
     ingredients =
@@ -10,7 +10,8 @@ data:extend(
       {"power-armor-mk2", 1},
 	  {"titanium-alloy", 100},
       {"advanced-circuit", 100}, 
-	  {"alien-artifact", 100}
+	  {"rocket-control-unit", 50},
+      {"low-density-structure", 50}
     },
     result = "power-armor-mk3"
   },
@@ -46,8 +47,9 @@ data:extend(
     ingredients =
     {
 	  {"fusion-reactor-equipment", 4},
-      {"processing-unit", 100},
-      {"alien-artifact", 120}
+      {"processing-unit", 100}, 
+	  {"rocket-control-unit", 50},
+      {"low-density-structure", 50}
     },
     result = "fusion-reactor-mk2-equipment"
   },
