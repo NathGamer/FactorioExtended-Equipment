@@ -2,7 +2,7 @@ data:extend(
 {
   {
     type = "recipe",
-	energy_required = 0.5,
+    energy_required = 0.5,
     name = "power-armor-mk3",
     enabled = false,
     ingredients =
