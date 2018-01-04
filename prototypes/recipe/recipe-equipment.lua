@@ -8,9 +8,9 @@ data:extend(
     ingredients =
     {
       {"power-armor-mk2", 1},
-	  {"titanium-alloy", 100},
+      {"titanium-alloy", 100},
       {"advanced-circuit", 100}, 
-	  {"rocket-control-unit", 50},
+      {"rocket-control-unit", 50},
       {"low-density-structure", 50}
     },
     result = "power-armor-mk3"
@@ -46,25 +46,25 @@ data:extend(
     energy_required = 10,
     ingredients =
     {
-	  {"fusion-reactor-equipment", 4},
+      {"fusion-reactor-equipment", 4},
       {"processing-unit", 100}, 
-	  {"rocket-control-unit", 50},
+      {"rocket-control-unit", 50},
       {"low-density-structure", 50}
     },
     result = "fusion-reactor-mk2-equipment"
   },
   {
     type = "recipe",
-    name = "personal-roboport-mk2-equipment",
+    name = "personal-roboport-mk3-equipment",
     enabled = false,
     energy_required = 10,
     ingredients =
     {
-	  {"personal-roboport-equipment", 2},
+      {"personal-roboport-mk2-equipment", 2},
       {"processing-unit", 20},
       {"titanium-alloy", 40},
       {"battery-mk2-equipment", 20},
     },
-    result = "personal-roboport-mk2-equipment"
+    result = "personal-roboport-mk3-equipment"
   }
 })

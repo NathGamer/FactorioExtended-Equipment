@@ -7,5 +7,4 @@ data:extend(
     height = 13,
     equipment_categories = {"armor"}
   }
-}
-)
+})
