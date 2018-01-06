@@ -2,7 +2,8 @@ data:extend({
   {
     type = "armor",
     name = "power-armor-mk3",
-    icon = "__FactorioExtended-Core__/graphics/icons/power-armor-mk3.png",
+	icon_size = 32,
+    icon = "__FactorioExtended-Equipment__/graphics/icons/power-armor-mk3.png",
     flags = {"goes-to-main-inventory"},
     resistances =
     {
@@ -34,11 +35,48 @@ data:extend({
     equipment_grid = "xlarge-equipment-grid",
     inventory_size_bonus = 40
   },
+  {
+    type = "armor",
+    name = "power-armor-mk4",
+	icon_size = 32,
+    icon = "__FactorioExtended-Equipment__/graphics/icons/power-armor-mk4.png",
+    flags = {"goes-to-main-inventory"},
+    resistances =
+    {
+      {
+        type = "physical",
+        decrease = 12,
+        percent = 75
+      },
+      {
+        type = "acid",
+        decrease = 13,
+        percent = 75
+      },
+      {
+        type = "explosion",
+        decrease = 25,
+        percent = 80
+      },
+      {
+        type = "fire",
+        decrease = 0,
+        percent = 95
+      }
+    },
+    durability = 30000,
+    subgroup = "fb-equipment",
+    order = "a-b",
+    stack_size = 1,
+    equipment_grid = "xXlarge-equipment-grid",
+    inventory_size_bonus = 50
+  },
   
   {
     type = "item",
     name = "fusion-reactor-mk2-equipment",
-    icon = "__FactorioExtended-Core__/graphics/icons/fusion-reactor-mk2-equipment.png",
+	icon_size = 32,
+    icon = "__FactorioExtended-Equipment__/graphics/icons/fusion-reactor-mk2-equipment.png",
     placed_as_equipment_result = "fusion-reactor-mk2-equipment",
     flags = {"goes-to-main-inventory"},
     subgroup = "fb-equipment",
@@ -49,7 +87,8 @@ data:extend({
   {
     type = "item",
     name = "energy-shield-mk3-equipment",
-    icon = "__FactorioExtended-Core__/graphics/icons/energy-shield-mk3-equipment.png",
+	icon_size = 32,
+    icon = "__FactorioExtended-Equipment__/graphics/icons/energy-shield-mk3-equipment.png",
     placed_as_equipment_result = "energy-shield-mk3-equipment",
     flags = {"goes-to-main-inventory"},
     subgroup = "fb-equipment",
@@ -61,7 +100,8 @@ data:extend({
   {
     type = "item",
     name = "battery-mk3-equipment",
-    icon = "__FactorioExtended-Core__/graphics/icons/battery-mk3-equipment.png",
+	icon_size = 32,
+    icon = "__FactorioExtended-Equipment__/graphics/icons/battery-mk3-equipment.png",
     placed_as_equipment_result = "battery-mk3-equipment",
     flags = {"goes-to-main-inventory"},
     subgroup = "fb-equipment",
@@ -72,9 +112,10 @@ data:extend({
   
   {
     type = "item",
-    name = "personal-roboport-mk2-equipment",
-    icon = "__FactorioExtended-Core__/graphics/icons/personal-roboport-mk2-equipment.png",
-    placed_as_equipment_result = "personal-roboport-mk2-equipment",
+    name = "personal-roboport-mk3-equipment",
+	icon_size = 32,
+    icon = "__FactorioExtended-Equipment__/graphics/icons/personal-roboport-mk3-equipment.png",
+    placed_as_equipment_result = "personal-roboport-mk3-equipment",
     flags = {"goes-to-main-inventory"},
     subgroup = "fb-equipment",
     order = "e-a",

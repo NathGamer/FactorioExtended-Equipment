@@ -4,7 +4,7 @@ data:extend({
     name = "energy-shield-mk3-equipment",
     sprite =
     {
-      filename = "__FactorioExtended-Core__/graphics/equipment/energy-shield-mk3-equipment.png",
+      filename = "__FactorioExtended-Equipment__/graphics/equipment/energy-shield-mk3-equipment.png",
       width = 64,
       height = 64,
       priority = "medium"
@@ -15,7 +15,7 @@ data:extend({
       height = 2,
       type = "full"
     },
-    max_shield_value = 300,
+    max_shield_value = 450,
     energy_source =
     {
       type = "electric",
@@ -24,7 +24,7 @@ data:extend({
       usage_priority = "primary-input"
     },
     energy_per_shield = "40kJ",
-    categories = {"armor"}
+    categories = {"armorX"}
   },
   
   {
@@ -32,7 +32,7 @@ data:extend({
     name = "battery-mk3-equipment",
     sprite =
     {
-      filename = "__FactorioExtended-Core__/graphics/equipment/battery-mk3-equipment.png",
+      filename = "__FactorioExtended-Equipment__/graphics/equipment/battery-mk3-equipment.png",
       width = 32,
       height = 64,
       priority = "medium"
@@ -46,12 +46,12 @@ data:extend({
     energy_source =
     {
       type = "electric",
-      buffer_capacity = "500000kJ",
+      buffer_capacity = "2000MJ",
       input_flow_limit = "5GW",
       output_flow_limit = "5GW",
       usage_priority = "terciary"
     },
-    categories = {"armor"}
+    categories = {"armorX"}
   },
   
   {
@@ -59,7 +59,7 @@ data:extend({
     name = "fusion-reactor-mk2-equipment",
     sprite =
     {
-      filename = "__FactorioExtended-Core__/graphics/equipment/fusion-reactor-mk2-equipment.png",
+      filename = "__FactorioExtended-Equipment__/graphics/equipment/fusion-reactor-mk2-equipment.png",
       width = 128,
       height = 128,
       priority = "medium"
@@ -75,17 +75,17 @@ data:extend({
       type = "electric",
       usage_priority = "primary-output"
     },
-    power = "3000kW",
-    categories = {"armor"}
+    power = "2800kW",
+    categories = {"armorX"}
   },
   
   {
     type = "roboport-equipment",
-    name = "personal-roboport-mk2-equipment",
-    take_result = "personal-roboport-mk2-equipment",
+    name = "personal-roboport-mk3-equipment",
+    take_result = "personal-roboport-mk3-equipment",
     sprite =
     {
-      filename = "__FactorioExtended-Core__/graphics/equipment/personal-roboport-mk2-equipment.png",
+      filename = "__FactorioExtended-Equipment__/graphics/equipment/personal-roboport-mk3-equipment.png",
       width = 64,
       height = 64,
       priority = "medium"
@@ -99,14 +99,13 @@ data:extend({
     energy_source =
     {
       type = "electric",
-      buffer_capacity = "70MJ",
-      input_flow_limit = "7000KW",
+      buffer_capacity = "80MJ",
+      input_flow_limit = "3500KW",
       usage_priority = "secondary-input"
     },
     charging_energy = "1000kW",
-    energy_consumption = "40kW",
 
-    robot_limit = 20,
+    robot_limit = 50,
     construction_radius = 25,
     spawn_and_station_height = 0.4,
     charge_approach_distance = 2.6,
@@ -124,9 +123,9 @@ data:extend({
     recharging_light = {intensity = 0.4, size = 5},
     stationing_offset = {0, -0.6},
     charging_station_shift = {0, 0.5},
-    charging_station_count = 4,
-    charging_distance = 1.6,
+    charging_station_count = 8,
+    charging_distance = 2,
     charging_threshold_distance = 5,
-    categories = {"armor"}
+    categories = {"armorX"}
   }
 })
